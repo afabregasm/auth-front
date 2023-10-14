@@ -1,7 +1,7 @@
 import { createContext, useEffect, useState } from "react";
 import { verifyService } from "../services/auth.service";
 
-const API_URL = "http://localhost:5005";
+// const API_URL = "http://localhost:5005";
 const AuthContext = createContext();
 
 function AuthProviderWrapper(props) {
